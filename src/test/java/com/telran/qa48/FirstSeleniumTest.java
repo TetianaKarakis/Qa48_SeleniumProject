@@ -26,7 +26,7 @@ public class FirstSeleniumTest {
 
         //wait for all elements on the site to load before starting test
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        
+
         driver.navigate().to("https://www.google.com");
         driver.navigate().back();
         driver.navigate().forward();
